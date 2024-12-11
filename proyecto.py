@@ -9,7 +9,7 @@ import matplotlib.image as mpimg
 import os
 
 # Cargar los datos desde el archivo CSV
-file_path = 'housing.csv'  # Asegúrate de que la ruta sea correcta
+file_path = 'housing.csv'  
 data = pd.read_csv(file_path)
 
 # Rellenar valores faltantes en 'total_bedrooms' con la mediana
